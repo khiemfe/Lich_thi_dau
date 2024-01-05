@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#slider {
+    position: relative;
+    background: url(../accest/img/nowcamp2.jpg) top center / cover no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    width: 100%;
+    color: rgb(2, 57, 224);
+}
+
+#slider .text-heading {
+    width: 100%;
+    position: absolute;
+    font-size: 44px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgb(2, 57, 224);
+    top: 95px;
+    text-align: center;
+    /* color: rgb(255, 51, 51); */
+    color: rgb(43, 255, 0);
+    text-transform: uppercase;
+    margin-top: -60px;
+    padding: 0 200px;
+    font-weight: 700;
+}
+
+.color-other {
+    color: red;
+}
+
+#slider .text-heading p {
+    font-size: 26px;
+    text-transform: none;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+
+.nha_tai_tro {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nha_tai_tro_heading {
+    color: red;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px blue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.nha_tai_tro_list {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.nha_tai_tro_item {
+    margin: 0 20px;
+    width: 33.333%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.nha_tai_tro_item.bac {
+    color: #ddd;
+}
+
+.nha_tai_tro_item.vang {
+    color: yellow;
+}
+
+.nha_tai_tro_item.dong {
+    color: #f54d0b;
+}
+
+.click {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.click-item {
+    background-color: #79ffba;
+    width: 200px;
+    padding: 15px 0;
+    margin: 0 80px;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all;
+    overflow: hidden;
+}
+
+.click-item:hover{
+    box-shadow: 5px 5px 20px 0px #111;
+    transform: scale(1.02);
+}
+
+.model_bangdau {
+    position: fixed;
+    background-image: url('./img/c1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    /* display: none; */
+    transform: translateY(150%);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.close-model_bangdau {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.close-model_bangdau:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.body_bangdau {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: auto;
+}
+
+.text-description {
+    font-size: 28px;
+    text-align: start;
+    color: black;
+    /* text-shadow: 2px 2px 2px rgb(1, 3, 1); */
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    width: 50%;
+}
+
+.text-description > * {
+    margin: auto;
+}
+
+.text-description > h3 {
+    text-align: center;
+}
+
+.text-description h3 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.text-description-club {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: rgb(140, 226, 220);
+    margin: 2px auto;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+
+.text-description-club-name {
+    width: 60%;
+    display: inline-block;
+    padding: 5px 0;
+    padding-left: 10px;
+}
+
+.center {
+   text-align: center;
+}
+
+.text-description-club-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.text-description-club-detail h4 {
+    display: inline-block;
+    padding: 0 20px;
+    flex: 1;
+    width: 60px;
+    text-align: center;
+}
+
+.text-description h5 {
+    padding: 5px 0;
+}
+
+.taitro {
+    position: absolute;
+    font-size: 26px;
+    bottom: 18px;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 255, 200);
+    text-shadow: 2px 2px 2px rgb(2, 57, 224);
+}
+
+
+.top_goal-detail {
+    position: fixed;
+    background-color: #fff;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    left: 20%;
+    right: 20%;
+    /* bottom: 5%; */
+    z-index: 2;
+    border-radius: 10px;
+    padding: 50px 20px;
+    background-color: rgb(218, 255, 243);
+    transform: translateY(150%);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.top_goal-detail i {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 7px 10px;
+}
+
+.top_goal-detail i:hover {
+    background-color: #eee;
+}
+
+.top_goal-detail .text {
+    text-align: center;
+    /* padding: 20px 0; */
+    margin-bottom: 30px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.top_goal-detail-list {
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 20px;
+}
+
+.top_goal-detail-list .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_goal-detail-list .heading div {
+    flex: 1;
+    font-weight: bold;
+}
+
+.top_goal-detail-item {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #9affcb;
+    border-radius: 7px;
+    overflow: hidden;
+    padding: 5px 0;
+    height: 50px;
+}
+
+.top_goal-detail-item div {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_goal-detail-item .club, .top_goal-detail-item .goal {
+    background-color: rgb(72, 72, 255);
+    color: #fff;
+}
+
+.top_goal-detail-item .name {
+    padding: 5px 25px;
+    background-color: #79ffba;
+}
+
+.schedule h4, .top_goal h4 {
+    font-size: 22px;
+    background-color: aquamarine;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 2px 15px 0px #555;
+    transition: all 0.2s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: none;
+}
+
+.schedule-detail {
+    position: fixed;
+    top: 6%;
+    left: 12%;
+    right: 12%;
+    bottom: 6%;
+    height: 88%;
+    background-color: rgba(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden; 
+    /* display: none; */
+    transform: translateY(150%);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.icon {
+    text-align: end;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-close {
+    font-size: 25px;
+    background-color: transparent;
+    padding: 6px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.icon-close-hidden {
+    color: transparent;
+    background-color: transparent;
+    padding: 6px 10px;
+    cursor: default;
+    margin-right: 20px;
+}
+
+.icon-close:hover {
+    background-color: #ddd;
+}
+
+.schedule-detail-body {
+    height: 100%;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.schedule-detail-text {
+    font-size: 36px;
+}
+
+
+.knock {
+    width: 100%;
+}
+
+.knock .day{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.schedule-detail-body .knock .match span {
+    font-weight: 400
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+
+.round {
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 8px 30px;
+}
+
+.round.first {
+    margin-top: 30px;
+}
+
+.body-match {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.vong_dau {
+    margin-top: 20px;
+}
+
+.match {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 47%;
+    height: 55px;
+    padding: 12px 20px;
+    font-size: 17px;
+}
+
+.body-match .match_tyso {
+    padding-left: 30px !important;
+    padding-right: 20px !important;
+}
+
+.match_tyso .club {
+    width: 30% !important;
+}
+
+.knock .match {
+    width: 60%;
+}
+
+.time {
+    width: 15%;
+}
+
+.time span {
+    font-weight: bold;
+}
+
+.club {
+    width: 25%;
+}
+
+.arena {
+    width: 10%;
+}
+
+.score {
+    width: 5%;
+}
+
+.tyso {
+    width: 15%;
+}
+
+.bang_ {
+    width: 10%;
+}
+
+.traogiai img {
+    width: 20%;
+}
+
+/* **************** */
+
+.mb_50 {
+    margin-bottom: 50px;
+}
+
+.ml_10 {
+    margin-left: 10px;
+}
+
+.ml_20 {
+    margin-left: 20px;
+}
+
+.ml_30 {
+    margin-left: 30px;
+}
+
+.mr_10 {
+    margin-right: 10px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.mt_70 {
+    margin-top: 70px;
+}
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+.mb_10 {
+    margin-bottom: 10px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+

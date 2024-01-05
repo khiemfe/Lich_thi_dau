@@ -1,0 +1,550 @@
+/* 
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .schedule-detail {
+        height: 500px !important;
+    }
+} */
+
+@media(min-width: 1750px) {
+    #slider .text-heading {
+        font-size: 60px;
+    }
+
+    .text-description {
+        font-size: 44px;
+    }
+
+    .schedule h4, .top_goal h4 {
+        font-size: 32px;
+    }
+
+    .taitro {
+        font-size: 30px;
+    } 
+
+    .icon-close {
+        font-size: 34px;
+    }
+
+    .match.mot, .match.nam, .match.chin,
+    .match.hai, .match.sau, .match.muoi {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 1280px) {
+    #slider .text-heading{
+        font-size: 30px !important;
+    }
+
+
+
+    .text-description {
+        font-size: 24px;
+    }
+
+    .img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .click h4 {
+        font-size: 20px;
+    }
+
+    .taitro {
+        font-size: 23px;
+    }
+
+    .league {
+        font-size: 15px;
+    }
+
+    .schedule-detail-body {
+        padding: 0 5px;
+    }
+}
+
+@media (min-width: 728px) and (max-width: 1025px) {
+    .click h4 {
+        font-size: 22px !important;
+    }
+
+    .text-description {
+        width: 100%;
+    }
+
+    .text-description.d {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 63.9375em) and (max-width: 1250px) {
+    .schedule-detail {
+        top: 6%;
+        left: 4%;
+        right: 4%;
+        bottom: 6%;
+        height: 88%;
+    }
+
+
+    
+}
+
+@media (min-width: 55em) and (max-width: 63.9375em) {
+
+    
+}
+
+
+/* Mobile and Tablet */
+@media only screen and (max-width: 63.9375em) {
+    #slider .text-heading {
+        font-size: 36px;
+        padding: 0 100px;
+    }
+
+    .img {
+        width: 130px;
+        height: 130px;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .top_goal-detail {
+        left: 10%;
+        right: 10%;
+        padding: 80px 20px;
+    }
+
+    .top_goal-detail-item {
+        margin-top: 10px;
+    }
+
+    .text-description {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .text-description-club {
+        width: 90%;
+    }
+
+    .click h4 {
+        font-size: 30px;
+    }
+
+    .taitro {
+        font-size: 34px;
+    } 
+
+    .match {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        padding: 12px 12px !important;
+    }
+
+    .knock {
+        width: 100%;
+    }
+
+    .knock .league .match {
+        width: 100% !important;
+    }
+
+    /* .schedule-detail-body {
+        display: none;
+    } */
+
+    .schedule-detail-body-mobile {
+        height: 100%;
+        overflow-y: scroll;
+        padding-bottom: 50px;
+    }
+
+    .schedule-detail {
+        top: 4%;
+        left: 4%;
+        right: 4%;
+        bottom: 4%;
+        height: 92%;
+    }
+
+    #slider {
+        height: 100vh;
+    }
+
+    .text-description.d {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 740px) {
+    #slider .text-heading {
+        font-size: 23px !important;
+        padding: 0 20px;
+    }
+
+    .time_da {
+        font-size: 18px !important;
+        display: block;
+    }
+
+    .click-item {
+        width: 100px;
+        padding: 12px 0;
+        margin: 0 10px;
+    }
+
+    .nha_tai_tro_heading {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    
+    .nha_tai_tro_list {
+        font-size: 16px;;
+    }
+
+    .top_goal-detail {
+        left: 5%;
+        right: 5%;
+        padding: 40px 0px;
+    }
+
+    .top_goal-detail .text {
+        margin-bottom: 30px;
+        font-size: 20px;
+        padding: 0 40px;
+    }
+
+    .top_goal-detail i {
+        top: 5px;
+        right: 5px;
+    }
+
+    .top_goal-detail-list {
+        text-align: center;
+        padding: 0 15px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .top_goal-detail-item {
+        margin-top: 10px;
+    }
+
+    .top_goal-detail-list .heading .name span {
+        display: block;
+    }
+
+    .text-description {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .text-description-club {
+        width: 95%;
+        padding: 0 0 0 10px;
+    }
+
+    .text-description-club-name {
+        width: 65%;
+        padding-left: 0px;
+    }
+
+    .text-description-club-detail h4 {
+        /* width: 100px; */
+        display: inline-block;
+        padding: 0 20px;
+        flex: 1;
+        width: 0px;
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .match {
+        width: 95%;
+        padding: 15px 10px;
+        font-size: 13px !important;
+    }
+
+    .knock .match {
+        width: 95%;
+    }
+
+    .time {
+        width: 15%;
+    }
+
+    .knock .time {
+        width: 10%;
+    }
+
+    .knock .arena {
+        width: 15%;
+    }
+
+    .club {
+        width: 22% !important;
+    }
+
+    .click h4{
+        font-size: 15px;
+    }
+
+    .taitro {
+        font-size: 18px;
+    }
+
+    .schedule-detail {
+        top: 2%;
+        left: 2%;
+        right: 2%;
+        bottom: 2%;
+        height: 96%;
+    }
+
+    .match {
+        display: flex;
+        font-size: 13px;
+        padding: 12px 6px !important;
+    }
+
+    .time {
+        margin-left: 6px !important;
+        margin-right: 0 !important;
+        padding: 0px;
+    }
+
+    .ml_30 {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .knock {
+        width: 100%;
+    }
+
+    .knock .club {
+        width: 90px;
+    }
+
+    .knock .time {
+        margin-left: 10px !important;
+    }
+
+    .knock .league .match {
+        width: 100% !important;
+    }
+
+    .knock .day{
+        font-size: 14px;
+    }
+
+    .schedule-detail-body-mobile {
+        height: 100%;
+        overflow-y: scroll;
+        padding-bottom: 50px;
+    }
+
+    .round {
+        font-size: 24px;
+    }
+
+    .match.mt_40 {
+        margin-top: 25px;
+    }
+
+    .match.mt_70 {
+        margin-top: 55px;
+    }
+
+    .match .ml_10 {
+        margin-left: 5px;
+    }
+
+    .schedule-detail-text {
+        font-size: 22px;
+    }
+
+    .close-model_bangdau {
+        right: 15px;
+        top: 15px;
+        font-size: 32px;
+    }
+
+    .text-description.a {
+        margin-top: 40px;
+    }
+
+    .text-description.d {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 740px) and (min-width: 500px) {
+    #slider .text-heading {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+
+    .text-description {
+        font-size: 20px;
+    }
+
+    .text-description-club {
+        width: 400px;
+    }
+
+    .click h4{
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .club span {
+        display: block;
+    }
+
+    .time span{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #slider .text-heading {
+        font-size: 24px;
+        padding: 0 20px;
+    }
+
+    .text-description {
+        font-size: 16px;
+    }
+    
+    .club {
+        width: 70px;
+    }
+
+    .click h4{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #slider .text-heading {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .text-description {
+        font-size: 14px;
+    }
+    
+    .club {
+        width: 70px;
+    }
+
+    .click h4{
+        font-size: 12px;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* #slider .text-heading {
+        font-size: 42px;
+        padding: 0 100px;
+    }
+
+    .img {
+        width: 250px;
+        height: 250px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text-description {
+        font-size: 42px;
+    }
+
+    .schedule {
+        bottom: 30%;
+    }
+
+    .schedule h4 {
+        font-size: 30px;
+    }
+
+    .taitro {
+        font-size: 34px;
+    } 
+
+    .group {
+        display: block;
+    }
+
+    .league {
+        display: inline-block;
+        width: 88%;
+    }
+
+    .match {
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+        padding: 10px 12px !important;
+    }
+
+    .knock {
+        width: 100%;
+    }
+
+    .knock .league .match {
+        width: 100% !important;
+    }
+
+    .schedule-detail-body {
+        display: none;
+    }
+
+    .schedule-detail-body-mobile {
+        height: 100%;
+        overflow-y: scroll;
+        padding-bottom: 50px;
+    }
+
+    .round {
+        font-size: 24px;
+    }
+
+    .vong {
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+
+    .vong.mot {
+        top: 0px;
+    }
+
+    .bang-dau {
+        position: absolute;
+        font-size: 20px;
+        right: 26px;
+    }
+
+    .schedule-detail {
+        top: 4%;
+        left: 10%;
+        right: 10%;
+        bottom: 4%;
+        height: 90%;
+    } */
+
+}

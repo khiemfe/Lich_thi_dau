@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch thi đấu</title>
+    <link rel="stylesheet" href="./accest/main.css">
+    <link rel="stylesheet" href="./accest/responsive.css">
+    <link rel="stylesheet" href="./accest/font/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="icon" href="./accest/img/messi-icon.png" type="image/x-icon" />
+</head>
+<body>
+    <div id="main">
+        <div id="slider">
+            <div class="text-heading">
+                <h4 class="color-other">Giao lưu cuối năm anh em hoà khánh</h4>
+                <h4>Tranh cup XKLĐ - Du học nhật bản minanotame</h4>
+                <p class="time_da"> Thời gian diễn ra: 6/1 - 7/1</p>
+            </div>
+            <div class="nha_tai_tro">
+                <h1 class="nha_tai_tro_heading">Sân bóng 7 người</h2>
+               <div class="none-mobile">
+                <div class="nha_tai_tro_list">
+                    <div class="nha_tai_tro_item bac">
+                        <!-- <h2 style="text-decoration: underline; margin-bottom: 5px;">Bạc</h2> -->
+                        <h2 class="mt">minanotame FC</h2>
+                    </div>
+                    <div class="nha_tai_tro_item bac">
+                        <!-- <h2 style="text-decoration: underline; margin-bottom: 5px;">Vàng</h2> -->
+                        <h2 class="mt">Anh em FC</h2>
+                    </div>
+                    <!-- <div class="nha_tai_tro_item dong">
+                        <h2 style="text-decoration: underline; margin-bottom: 5px;">Đồng</h2>
+                        <h2>Công ty sàn gỗ Việt Gia Phát</h2>
+                    </div> -->
+                </div>
+                <div class="nha_tai_tro_list">
+                    <div class="nha_tai_tro_item bac">
+                        <!-- <h2 style="text-decoration: underline; margin-bottom: 5px;">Bạc</h2> -->
+                        <h2 class="mt">Bằng lăng FC</h2>
+                    </div>
+                    <div class="nha_tai_tro_item bac">
+                        <!-- <h2 style="text-decoration: underline; margin-bottom: 5px;">Vàng</h2> -->
+                        <h2 class="mt">Hoà khánh FC</h2>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <!-- <div class="doibong">
+                <div class="item">
+                    <h3>minanotame FC</h3>
+                    <h3>Bằng lăng FC</h3>
+                </div>
+
+                <div class="item">
+                    <h3>Anh em FC</h3>
+                    <h3>Hoà khánh FC</h3>
+                </div> -->
+            <!-- </div> -->
+
+            <div class="click">
+                <div class="bang_thi_dau click-item">
+                    <h4>Bảng xếp hạng</h4>
+                </div>
+                <div class="schedule_ click-item">
+                    <h4>Lịch Thi Đấu</h4>
+                </div>
+                <div class="top_goal_ click-item">
+                    <h4>Vua phá lưới</h4>
+                </div>
+            </div>
+            
+            <div class="model_bangdau">
+                <i class="close-model_bangdau fa-solid fa-xmark"></i>
+                <div class="body_bangdau">
+                    <div class="text-description a">
+                        <h3>Bảng A</h3>
+                        <div class="text-description-club one">
+                            <h4 class="text-description-club-name center">Đội</h4>
+                            <div class="text-description-club-detail">
+                                <h4>ĐĐ</h4>
+                                <h4>HS</h4>
+                                <h4>ĐS</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Minanotame FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>0</h4>
+                                <h4>0</h4>
+                                <h4>0</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Bằng Lăng FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>0</h4>
+                                <h4>0</h4>
+                                <h4>0</h4>
+                            </div>
+                        </div>
+                        
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Anh Em FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>0</h4>
+                                <h4>0</h4>
+                                <h4>0</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Hoà Khánh FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>0</h4>
+                                <h4>0</h4>
+                                <h4>0</h4>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- <div class="text-description b">
+                        <h3>Bảng B</h3>
+                        <div class="text-description-club one">
+                            <h4 class="text-description-club-name center">Đội</h4>
+                            <div class="text-description-club-detail">
+                                <h4>ĐĐ</h4>
+                                <h4>HS</h4>
+                                <h4>ĐS</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Ô Thiều FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>+6</h4>
+                                <h4>4</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Vinh Nguyễn FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>+3</h4>
+                                <h4>4</h4>
+                            </div>
+                        </div>
+                        
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">92G1 FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>-5</h4>
+                                <h4>3</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Nội Thất BEEHOME FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>-4</h4>
+                                <h4>0</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-description c">
+                        <h3>Bảng C</h3>
+                        <div class="text-description-club one">
+                            <h4 class="text-description-club-name center">Đội</h4>
+                            <div class="text-description-club-detail">
+                                <h4>ĐĐ</h4>
+                                <h4>HS</h4>
+                                <h4>ĐS</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Heaven Gaming FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>+5</h4>
+                                <h4>4</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Tuấn Sport FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>+1</h4>
+                                <h4>4</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Đồng Hương FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>+1</h4>
+                                <h4>3</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Thống Nhất FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>-7</h4>
+                                <h4>0</h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="text-description d">
+                        <h3>Bảng D</h3>
+                        <div class="text-description-club one">
+                            <h4 class="text-description-club-name center">Đội</h4>
+                            <div class="text-description-club-detail">
+                                <h4>ĐĐ</h4>
+                                <h4>HS</h4>
+                                <h4>ĐS</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">MUHK FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>+1</h4>
+                                <h4>4</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Việt-Khoa-Khang FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>+1</h4>
+                                <h4>3</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Nhà Quê FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>0</h4>
+                                <h4>2</h4>
+                            </div>
+                        </div>
+                        <div class="text-description-club">
+                            <h4 class="text-description-club-name">Xích Long FC</h4>
+                            <div class="text-description-club-detail">
+                                <h4>2</h4>
+                                <h4>-2</h4>
+                                <h4>1</h4>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="taitro">
+                <span>Sân bóng đá Nguyễn Chánh 3</span>
+            </div>
+
+            <div class="top_goal-detail">
+                <i class="close-top_goal fa-solid fa-xmark"></i>
+                <h3 class="text">Danh sách vua phá lưới</h3>
+                <ul class="top_goal-detail-list">
+                    <div class="heading">
+                        <div class="club">
+                            Đội
+                        </div>
+                        <div class="name">
+                            Cầu thủ <span>(Số áo)</span>
+                        </div>
+                        <div class="goal">
+                            Số BT
+                        </div>
+                    </div>
+                    <li class="top_goal-detail-item">
+                        <div class="club">
+                            
+                        </div>
+                        <div class="name">
+                            
+                        </div>
+                        <div class="goal">
+                            
+                        </div>
+                    </li>
+                    <li class="top_goal-detail-item">
+                        <div class="club">
+                            
+                        </div>
+                        <div class="name">
+                            
+                        </div>
+                        <div class="goal">
+                            
+                        </div>
+                    </li>
+                    <li class="top_goal-detail-item">
+                        <div class="club">
+                           
+                        </div>
+                        <div class="name">
+                            
+                        </div>
+                        <div class="goal">
+                            
+                        </div>
+                    </li>
+                    <li class="top_goal-detail-item">
+                        <div class="club">
+                            
+                        </div>
+                        <div class="name">
+                            
+                        </div>
+                        <div class="goal">
+                            
+                        </div>
+                    </li>
+                    <li class="top_goal-detail-item">
+                        <div class="club">
+                            
+                        </div>
+                        <div class="name">
+                            
+                        </div>
+                        <div class="goal">
+                            
+                        </div>
+                    </li>
+                    <li class="top_goal-detail-item">
+                        <div class="club">
+                            
+                        </div>
+                        <div class="name">
+                            
+                        </div>
+                        <div class="goal">
+                            
+                        </div>
+                    </li>
+                    <li class="top_goal-detail-item">
+                        <div class="club">
+                            
+                        </div>
+                        <div class="name">
+                            
+                        </div>
+                        <div class="goal">
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="schedule-detail">
+                <div class="icon">
+                    <i class="fa-solid fa-xmark icon-close-hidden"></i>
+                    <h2 class="schedule-detail-text">Lịch thi đấu</h2>
+                    <i class="icon-close fa-solid fa-xmark"></i>
+                </div>
+                <div class="schedule-detail-body">
+                    <!-- <h2 class="round first">Vòng bảng</h2>
+                    <h3 class="vong_dau">Vòng 1 (2/7)</h3>
+                    <div class="body-match">
+                        <div class="match">
+                            <h4 class="club">TQC FC</h4>
+                            <h4 class="tyso">4 - 3</h4>
+                            <h4 class="club">Gà Chiến FC</h4>
+                            <h4 class="bang_">A</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">92G1 FC</h4>
+                            <h4 class="tyso">0 - 6</h4>
+                            <h4 class="club">Ô Thiều FC</h4>
+                            <h4 class="bang_">B</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">Đồng Hương FC</h4>
+                            <h4 class="tyso">1 - 2</h4>
+                            <h4 class="club">Tuấn Sport FC</h4>
+                            <h4 class="bang_">C</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">MUHK FC</h4>
+                            <h4 class="tyso">3 - 2</h4>
+                            <h4 class="club">Việt-Khoa-Khang FC</h4>
+                            <h4 class="bang_">D</h3>
+                        </div>
+                        
+                        <div class="match">
+                            <h4 class="club">Bến Xe FC</h4>
+                            <h4 class="tyso">2 - 5</h4>
+                            <h4 class="club">Win Win FC</h4>
+                            <h4 class="bang_">A</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">Vinh Nguyễn FC</h4>
+                            <h4 class="tyso">3 - 0</h4>
+                            <h4 class="club">Nội Thất BEEHOME FC</h4>
+                            <h4 class="bang_">B</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">Heaven Gaming FC</h4>
+                            <h4 class="tyso">6 - 1</h4>
+                            <h4 class="club">Thống Nhất FC</h4>
+                            <h4 class="bang_">C</h3>
+                        </div>
+                        
+                        <div class="match">
+                            <h4 class="club">Xích Long FC</h4>
+                            <h4 class="tyso">1 - 1</h4>
+                            <h4 class="club">Nhà Quê FC</h4>
+                            <h4 class="bang_">D</h3>
+                        </div>
+                    </div>
+                    <h3 class="vong_dau">Vòng 2</h3>
+                    <p class="">(Ngày 4/7)</h3>
+                    <div class="body-match mb_10">
+                        <div class="match">
+                            <h4 class="club">TQC FC</h4>
+                            <h4 class="tyso">2 - 2</h4>
+                            <h4 class="club">Win Win FC</h4>
+                            <h4 class="bang_">A</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">Vinh Nguyễn FC</h4>
+                            <h4 class="tyso">2 - 2</h4>
+                            <h4 class="club">Ô Thiều FC</h4>
+                            <h4 class="bang_">B</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">Đồng Hương FC</h4>
+                            <h4 class="tyso">2 - 0</h4>
+                            <h4 class="club">Thống Nhất FC</h4>
+                            <h4 class="bang_">C</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="tyso">1 - 1</h4>
+                            <h4 class="club">Nhà Quê FC</h4>
+                            <h4 class="bang_">D</h3>
+                        </div>
+                    </div>
+                    <p class="">(Ngày 5/7)</h3>
+                    <div class="body-match">
+                        <div class="match">
+                            <h4 class="club">Bến Xe FC</h4>
+                            <h4 class="tyso">5 - 1</h4>
+                            <h4 class="club">Gà Chiến FC</h4>
+                            <h4 class="bang_">A</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">92G1 FC</h4>
+                            <h4 class="tyso">4 - 3</h4>
+                            <h4 class="club">Nội Thất BEEHOME FC</h4>
+                            <h4 class="bang_">B</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">Tuấn Sport FC</h4>
+                            <h4 class="tyso">2 - 2</h4>
+                            <h4 class="club">Heaven Gaming FC</h4>
+                            <h4 class="bang_">C</h3>
+                        </div>
+                        <div class="match">
+                            <h4 class="club">Xích Long FC</h4>
+                            <h4 class="tyso">4 - 6</h4>
+                            <h4 class="club">Viêt-Khoa-Khang FC</h4>
+                            <h4 class="bang_">D</h3>
+                        </div>
+                    </div>
+
+                    <h3 class="vong_dau">Vòng 3</h3>
+                    <p class="">(Ngày 7/7)</h3>
+                    <div class="body-match mb_10">
+                        <div class="match">
+                            <p class="time">19h30</p>
+                            <h4 class="club">TQC FC</h4>
+                            <h4 class="score">VS</h4>
+                            <h4 class="club">Bến Xe FC</h4>
+                            <p class="arena">Sân A</p>
+                            <h4 class="bang_">A</h3>
+                        </div>
+                        <div class="match">
+                            <p class="time">19h30</p>
+                            <h4 class="club">Win Win FC</h4>
+                            <h4 class="score">VS</h4>
+                            <h4 class="club">Gà Chiến FC</h4>
+                            <p class="arena">Sân B</p>
+                            <h4 class="bang_">A</h3>
+                        </div>
+                        <div class="match">
+                            <p class="time">19h30</p>
+                            <h4 class="club">Vinh Nguyễn FC</h4>
+                            <h4 class="score">VS</h4>
+                            <h4 class="club">92G1 FC</h4>
+                            <p class="arena">Sân C</p>
+                            <h4 class="bang_">B</h3>
+                        </div>
+                        <div class="match">
+                            <p class="time">19h30</p>
+                            <h4 class="club">Ô Thiều FC</h4>
+                            <h4 class="score">VS</h4>
+                            <h4 class="club">Nội Thất BEEHOME FC</h4>
+                            <p class="arena">Sân D</p>
+                            <h4 class="bang_">B</h3>
+                        </div>
+                    </div>
+                    <p class="">(Ngày 8/7)</h3>
+                    <div class="body-match">
+                        <div class="match">
+                            <p class="time">19h30</p>
+                            <h4 class="club">Đồng Hương FC</h4>
+                            <h4 class="score">VS</h4>
+                            <h4 class="club">Heaven Gaming FC</h4>
+                            <p class="arena">Sân A</p>
+                            <h4 class="bang_">C</h3>
+                        </div>
+                        <div class="match">
+                            <p class="time">19h30</p>
+                            <h4 class="club">Thống Nhất FC</h4>
+                            <h4 class="score">VS</h4>
+                            <h4 class="club">Tuấn Sport FC</h4>
+                            <p class="arena">Sân B</p>
+                            <h4 class="bang_">C</h3>
+                        </div>
+                        <div class="match">
+                            <p class="time">19h30</p>
+                            <h4 class="club">MUHK FC</h4>
+                            <h4 class="score">VS</h4>
+                            <h4 class="club">Xích Long FC</h4>
+                            <p class="arena">Sân C</p>
+                            <h4 class="bang_">D</h3>
+                        </div>
+                        <div class="match">
+                            <p class="time">19h30</p>
+                            <h4 class="club">Nhà Quê FC</h4>
+                            <h4 class="score">VS</h4>
+                            <h4 class="club">Việt-Khoa-Khang FC</h4>
+                            <p class="arena">Sân D</p>
+                            <h4 class="bang_">D</h3>
+                        </div>
+                    </div> -->
+                    
+                    <div class="knock">
+                        <!-- <div class="league"> -->
+                            <!-- <h2 class="round mb_10"></h2> -->
+                            <p class="day">(Ngày 6/1)</p>
+                            <div class="body-match">
+                                <div class="match">
+                                    <h4 class="time">Trận 1:</h4>
+                                    <p class="time">16h30</p>
+                                    <h4 class="club">Minanotame FC</h4>
+                                    <h4 class="score">VS</h4>
+                                    <h4 class="club">Bằng lăng FC</h4>
+                                    <p class="arena">Sân 1</p>
+                                </div>
+                                <div class="match">
+                                    <h4 class="time">Trận 2:</h4>
+                                    <p class="time">16h30</p>
+                                    <h4 class="club">Hoà Khánh FC</h4>
+                                    <h4 class="score">VS</h4>
+                                    <h4 class="club">Anh Em FC</h4>
+                                    <p class="arena">Sân 2</p>
+                                </div>
+                                <div class="match">
+                                    <h4 class="time">Trận 3:</h4>
+                                    <p class="time">17h30</p>
+                                    <h4 class="club">Bằng Lăng FC</h4>
+                                    <h4 class="score">VS</h4>
+                                    <h4 class="club">Hoà Khánh FC</h4>
+                                    <p class="arena">Sân 1</p>
+                                </div>
+                                <div class="match">
+                                    <h4 class="time">Trận 4:</h4>
+                                    <p class="time">17h30</p>
+                                    <h4 class="club">Minanotame FC</h4>
+                                    <h4 class="score">VS</h4>
+                                    <h4 class="club">Anh Em FC</h4>
+                                    <p class="arena">Sân 2</p>
+                                </div>
+                            </div>
+                            <!-- <h2 class="round mb_10">  </h2> -->
+                            <p class="day mt20">(Ngày 7/1)</p>
+                            <div class="body-match">
+                                <div class="match">
+                                    <h4 class="time">Trận 5:</h4>
+                                    <p class="time">15h30</p>
+                                    <h4 class="club">Bằng Lăng FC</h4>
+                                    <h4 class="score">VS</h4>
+                                    <h4 class="club">Anh Em FC</h4>
+                                    <p class="arena">Sân 1</p>
+                                </div>
+                                <div class="match">
+                                    <h4 class="time">Trận 6:</h4>
+                                    <p class="time">16h30</p>
+                                    <h4 class="club">Minanotame FC</h4>
+                                    <h4 class="score">VS</h4>
+                                    <h4 class="club">Hoà Khánh FC</h4>
+                                    <p class="arena">Sân 1</p>
+                                </div>
+                            </div>
+                            <!-- <h2 class="round mb_10">Tranh 3-4</h2>
+                            <p class="day">(Ngày 14/7)</p>
+                            <div class="body-match">
+                                <div class="match">
+                                    <p class="time">18h30</p>
+                                    <h4 class="club">Thua BK1</h4>
+                                    <h4 class="score">VS</h4>
+                                    <h4 class="club">Thua BK2</h4>
+                                    <p class="arena">Sân A</p>
+                                </div>
+                            </div>
+                            <h2 class="round mb_10">Chung kết</h2>
+                            <p class="day">(Ngày 14/7)</p>
+                            <div class="body-match">
+                                <div class="match">
+                                    <p class="time">19h30</p>
+                                    <h4 class="club">Thắng TK1</h4>
+                                    <h4 class="score">VS</h4>
+                                    <h4 class="club">Thắng TK1</h4>
+                                    <p class="arena">Sân A</p>
+                                </div>
+                            </div> -->
+
+                            <h2 class="round">17h30: Trao giải</h2>
+                            <div class="traogiai mb_50">
+                                <img src="./accest/img/cup-winner.png" alt="">
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <!-- <div class="schedule-detail-body-mobile">
+                    <h2 class="round first mb_20">Vòng bảng</h2>
+                    <div class="group">
+                        <div class="league">
+                            <h3 class="vong mot">Vòng 1 (Ngày 8/6)</h3>
+                            <h3 class="bang-dau">Bảng</h3>
+                            <div class="match mt_40">
+                                <p class="time"> <span>Trận 1 </span>18h30</p>
+                                <h4 class="club">Badosa <span></span>FC</h4>
+                                <h4>3 - 3</h4>
+                                <h4 class="club">Bến Xe <span></span>FC</h4>
+                                <p class="arena">Sân 1</p>
+                                <h4 class="ml_30">A</h4>
+                            </div>
+                            <div class="match">
+                                <p class="time"> <span>Trận 2 </span>18h30</p>
+                                <h4 class="club">TQC <span></span>FC</h4>
+                                <h4>4 - 1</h4>
+                                <h4 class="club">Lee Fa <span></span>FC</h4>
+                                <p class="arena">Sân 2</p>
+                                <h4 class="ml_30">B</h4>
+                            </div>
+                            <div class="match">
+                                <p class="time"> <span>Trận 3</span>19h30</p>
+                                <h4 class="club">Xích Long <span></span>FC</h4>
+                                <h4>5 - 0</h4>
+                                <h4 class="club">Monday <span></span>FC</h4>
+                                <p class="arena">Sân 1</p>
+                                <h4 class="ml_30">A</h4>
+                            </div>
+                            <div class="match mb_30">
+                                <p class="time"> <span>Trận 4 </span>19h30</p>
+                                <h4 class="club">T&T <span></span>FC</h4>
+                                <h4>1 - 2</h4>
+                                <h4 class="club">Tuấn Sport <span></span>FC</h4>
+                                <p class="arena">Sân 2</p>
+                                <h4 class="ml_30">B</h4>
+                            </div>
+                            <h3 class="vong hai">Vòng 2 (Ngày 9/6)</h3>
+                            <div class="match mt_70">
+                                <p class="time"> <span>Trận 5 </span>18h30</p>
+                                <h4 class="club">Badosa <span></span>FC</h4>
+                                <h4>0 - 5</h4>
+                                <h4 class="club">Xích Long <span></span>FC</h4>
+                                <p class="arena">Sân 1</p>
+                                <h4 class="ml_30">A</h4>
+                            </div>
+                            <div class="match">
+                                <p class="time"> <span>Trận 6 </span>18h30</p>
+                                <h4 class="club">TQC <span></span>FC</h4>
+                                <h4>6 - 2</h4>
+                                <h4 class="club">T&T <span></span>FC</h4>
+                                <p class="arena">Sân 2</p>
+                                <h4 class="ml_30">B</h4>
+                            </div>
+                            <div class="match">
+                                <p class="time"> <span>Trận 7 </span>19h30</p>
+                                <h4 class="club">Bến Xe <span></span>FC</h4>
+                                <h4>3 - 3</h4>
+                                <h4 class="club">Monday <span></span>FC</h4>
+                                <p class="arena">Sân 1</p>
+                                <h4 class="ml_30">A</h4>
+                            </div>
+                            <div class="match mb_30">
+                                <p class="time"> <span>Trận 8 </span>19h30</p>
+                                <h4 class="club">Lee Fa <span></span>FC</h4>
+                                <h4>4 - 7</h4>
+                                <h4 class="club">Tuấn Sport <span></span>FC</h4>
+                                <p class="arena">Sân 2</p>
+                                <h4 class="ml_30">B</h4>
+                            </div>
+                            <h3 class="vong ba">Vòng 3 (Ngày 10/6)</h3>
+                            <div class="match mt_70">
+                                <p class="time"> <span>Trận 9 </span>17h30</p>
+                                <h4 class="club">Badosa <span></span>FC</h4>
+                                <h4>5 - 4</h4>
+                                <h4 class="club">Monday <span></span>FC</h4>
+                                <p class="arena">Sân 1</p>
+                                <h4 class="ml_30">A</h4>
+                            </div>
+                            <div class="match">
+                                <p class="time"> <span>Trận 10 </span>17h30</p>
+                                <h4 class="club">Bến Xe <span></span>FC</h4>
+                                <h4>9 - 7</h4>
+                                <h4 class="club">Xích Long <span></span>FC</h4>
+                                <p class="arena">Sân 2</p>
+                                <h4 class="ml_30">A</h4>
+                            </div>
+                            <div class="match">
+                                <p class="time"> <span>Trận 11 </span>18h30</p>
+                                <h4 class="club">TQC <span></span>FC</h4>
+                                <h4>6 - 4</h4>
+                                <h4 class="club">Tuấn Sport <span></span>FC</h4>
+                                <p class="arena">Sân 1</p>
+                                <h4 class="ml_30">B</h4>
+                            </div>
+                            <div class="match">
+                                <p class="time"> <span>Trận 12 </span>18h30</p>
+                                <h4 class="club">Lee Fa <span></span>FC</h4>
+                                <h4>2 - 4</h4>
+                                <h4 class="club">T&T <span></span>FC</h4>
+                                <p class="arena">Sân 2</p>
+                                <h4 class="ml_30">B</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="knock">
+                        <div class="league">
+                            <h2 class="round">Bán kết</h2>
+                            <p class="day">(Ngày 11/6)</p>
+                            <div class="match">
+                                <h4 class="ml_10"><span>Trận 13 </span><br>BK1</h4>
+                                <h4 class="club">Xích Long <br> FC</h4>
+                                <h4 style="width: 40px;">1 - 1 <br> (1 - 4)</h4>
+                                <h4 class="club">Tuấn Sport <br> FC</h4>
+                                <p class="arena">Sân 1</p>
+                            </div>
+                            <div class="match">
+                                <h4 class="ml_10"><span>Trận 14 </span><br>BK2</h4>
+                                <h4 class="club">TQC <br> FC</h4>
+                                <h4>2 - 5</h4>
+                                <h4 class="club">Bến Xe <br> FC</h4>
+                                <p class="arena">Sân 2</p>
+                            </div>
+                            <h2 class="round">Tranh 3-4</h2>
+                            <p class="day">(Ngày 12/6)</p>
+                            <div class="match">
+                                <p class="time"> <span>Trận 15 </span>17h00</p>
+                                <h4 class="club">Xích Long FC</h4>
+                                <h4>VS</h4>
+                                <h4 class="club">TQC FC</h4>
+                                <p class="arena">Sân 1</p>
+                            </div>
+                            <h2 class="round">Chung kết</h2>
+                            <p class="day">(Ngày 12/6)</p>
+                            <div class="match">
+                                <p class="time"> <span>Trận 16 </span>18h00</p>
+                                <h4 class="club">Tuấn Sport FC</h4>
+                                <h4>VS</h4>
+                                <h4 class="club">Bến Xe FC</h4>
+                                <p class="arena">Sân 2</p>
+                            </div>
+
+                            <h2 class="round">19h00 Trao giải</h2>
+                            <div class="traogiai mb_50">
+                                <img src="./accets/img/cup-winner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="./accest/main.js"></script>
+</body>
+</html>
